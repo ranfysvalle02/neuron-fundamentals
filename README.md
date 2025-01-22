@@ -237,52 +237,53 @@ Our single neuron couldn't handle the XOR gate alone. It's like trying to lift a
    
 ## **Teamwork Makes the Dream Work: Combining Neurons**  
    
-Just like in life, some problems require more than one person (or neuron) to solve. Let's see how combining neurons can achieve what a single one couldn't.  
+Just like in life, some challenges require cooperation. Let's see how combining neurons can achieve what a single one couldn't.  
    
 ### **Building an XOR Gate Using Multiple Neurons**  
    
-**Analogy**: Imagine setting up a treasure hunt. You need clues from different friends (neurons) to find the treasure (correct output).  
+**Analogy**: Imagine you're organizing a concert that can only happen under specific conditions. You need either the guitarist **or** the drummer to be available—but not both at the same time—to create a unique acoustic or percussion solo night. If both are available, they decide to postpone for a full band performance. This situation requires careful coordination, just like building an XOR gate requires combining neurons in a particular way.  
    
 **Our Neuron Team:**  
    
 1. **First Layer Neurons:**  
   
-   - **OR Neuron**:  
-     - **Weights**: `[1, 1]`  
+   - **Neuron A (Detects when only the guitarist is available):**  
+     - **Weights**: `[1, -1]`  
      - **Threshold**: `1`  
-   - **NAND Neuron** (outputs the opposite of AND):  
-     - **Weights**: `[-2, -2]`  
-     - **Threshold**: `-3`  
+   - **Neuron B (Detects when only the drummer is available):**  
+     - **Weights**: `[-1, 1]`  
+     - **Threshold**: `1`  
    
 2. **Second Layer Neuron:**  
   
-   - **AND Neuron**:  
+   - **Neuron C (Decides if the concert happens):**  
      - **Weights**: `[1, 1]`  
-     - **Threshold**: `2`  
+     - **Threshold**: `1`  
    
 **How It Works:**  
    
-- The **OR neuron** checks if at least one input is `1`.  
-- The **NAND neuron** checks if not both inputs are `1`.  
-- The **AND neuron** takes the outputs of the OR and NAND neurons. It outputs `1` only if both conditions are met (inputs are different).  
+- **Neuron A** activates when the guitarist is available (`1`) and the drummer is not (`0`).  
+- **Neuron B** activates when the drummer is available (`1`) and the guitarist is not (`0`).  
+- **Neuron C** checks if either Neuron A **or** Neuron B is active. If so, the concert proceeds with a solo performance.  
    
 **Code Example:**  
    
 ```python  
 # XOR Gate Simulation Using Multiple Neurons  
+   
 # First Layer Neurons  
-or_neuron = McCullochPittsNeuron(weights=[1, 1], threshold=1)  
-nand_neuron = McCullochPittsNeuron(weights=[-2, -2], threshold=-3)  
+neuron_a = McCullochPittsNeuron(weights=[1, -1], threshold=1)  
+neuron_b = McCullochPittsNeuron(weights=[-1, 1], threshold=1)  
    
 # Second Layer Neuron  
-and_neuron = McCullochPittsNeuron(weights=[1, 1], threshold=2)  
+neuron_c = McCullochPittsNeuron(weights=[1, 1], threshold=1)  
    
 print("\nXOR Gate Simulation Using Multiple Neurons:")  
 for inputs, expected in xor_test_cases:  
-    output_or = or_neuron.activate(inputs)  
-    output_nand = nand_neuron.activate(inputs)  
-    new_inputs = [output_or, output_nand]  
-    result = and_neuron.activate(new_inputs)  
+    output_a = neuron_a.activate(inputs)  
+    output_b = neuron_b.activate(inputs)  
+    new_inputs = [output_a, output_b]  
+    result = neuron_c.activate(new_inputs)  
     print(f"Inputs: {inputs}, Expected: {expected}, Actual: {result}")  
 ```  
    
@@ -298,8 +299,10 @@ Inputs: [1, 1], Expected: 0, Actual: 0
    
 **Success!**  
    
-By combining neurons, we've built a simple neural network that correctly simulates the XOR gate. It's a clear example that sometimes, teamwork is essential to solve complex challenges.  
+By combining neurons, we've built a simple neural network that correctly simulates the XOR gate. This demonstrates that sometimes, collaboration is key to overcoming complex challenges—whether it's organizing a unique concert or processing intricate computations.  
    
+---  
+
 ---  
    
 ## **The Power of Many: Keeping Our Brains Healthy**  
