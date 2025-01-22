@@ -2,9 +2,7 @@
 
 ---
 
-# **From Neurons to Decisions: Exploring Logic Gates and Neural Networks**  
-   
-*Hey there, young explorers!*  
+# **From Neurons to Decisions**
    
 Have you ever wondered how your brain tells your hand to catch a ball or how your phone recognizes your voice? It all boils down to tiny messengers called **neurons**. Just like how you and your friends might work together to solve a puzzle, neurons team up to make decisions and process information. Today, we're diving into the fascinating world of neurons, logic gates, and how they help us (and computers) make the right choices. Ready to embark on this adventure? Let's get started!  
    
