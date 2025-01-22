@@ -1,6 +1,6 @@
 # neuron-fundamentals
 
-![](https://media.npr.org/assets/img/2018/03/06/neuron-1-2674e2fe01698eba4f9c51424824bf079fe9bc36.jpg)
+![](https://news.ucr.edu/sites/default/files/styles/news_article_featured_l/public/2019-08/Neurons_1.jpeg?h=004581e8&itok=b5EzbCyL)
 
 ---
 
