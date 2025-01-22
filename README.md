@@ -43,7 +43,7 @@ Think of a logic gate as a tiny decision-maker in a computer. It's like a gateke
    
 ## **Neurons: Nature's Tiny Decision Makers**  
 
-![](https://www.researchgate.net/publication/359233566/figure/fig2/AS:1153274208100374@1651973406739/Biological-neuron-versus-McCulloch-and-Pitts-artificial-neuron-model.png)
+![](https://miro.medium.com/v2/resize:fit:1400/1*E77-lTITOXxQckjYk2g7gw.png)
 
 ### **What is a Neuron?**  
    
