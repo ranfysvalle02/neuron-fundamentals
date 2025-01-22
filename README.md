@@ -1,5 +1,7 @@
 # neuron-fundamentals
 
+![](https://media.npr.org/assets/img/2018/03/06/neuron-1-2674e2fe01698eba4f9c51424824bf079fe9bc36.jpg)
+
 ---
 
 # **From Neurons to Decisions**
