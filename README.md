@@ -21,7 +21,9 @@ Think of a logic gate as a tiny decision-maker in a computer. It's like a gateke
 ---  
    
 ## **Meet the Team: The Big Three Logic Gates**  
-   
+
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYUx1Nua0X4PJPPI7dRUfWW6ovd79-U_JuaSUAQBKqst7lgNGbnwpuNeLoxghtDW7PiCuumMh6qdrpFlTRNxSBF6USGwITq_bOLn9LWVwd0P6zPtIMvAIIUz3CcIfS7mJ3Mti3gyUJTEZXIiTynbMQeKnNN2gZ_EdqFoLnIej-9x-edZ8bQ9NrZ_9Ypvw/w1200-h630-p-k-no-nu/Logic%20Gates.png)
+
 ### **1. AND Gate: The Team Player**  
    
 - **Analogy**: Imagine you can only start a game if **both** you **and** your friend are ready. If either of you isn't ready, the game can't start.  
