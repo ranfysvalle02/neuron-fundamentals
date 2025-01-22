@@ -42,7 +42,9 @@ Think of a logic gate as a tiny decision-maker in a computer. It's like a gateke
 ---  
    
 ## **Neurons: Nature's Tiny Decision Makers**  
-   
+
+![](https://www.researchgate.net/publication/359233566/figure/fig2/AS:1153274208100374@1651973406739/Biological-neuron-versus-McCulloch-and-Pitts-artificial-neuron-model.png)
+
 ### **What is a Neuron?**  
    
 Neurons are like tiny messengers in your brain. They send and receive signals to help you think, move, and feel. Each neuron can be "on" or "off," similar to a light switch.  
